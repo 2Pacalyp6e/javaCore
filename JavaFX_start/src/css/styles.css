@@ -1,0 +1,37 @@
+
+
+#area{
+        -fx-control-inner-background: rgb(60, 60, 65);
+        -fx-fill: white;
+        -fx-font-size: 15px;
+        -fx-font-family: "Times New Roman";
+        -fx-font-weight: bold;
+}
+#hBox{
+    -fx-background-color:rgb(45, 45, 50);
+}
+#textField{
+     -fx-background-color:rgb(45, 45, 50);
+     -fx-text-fill: white;
+     -fx-fill: white;
+     -fx-font-size: 20px;
+     -fx-font-family: "Times New Roman";
+     -fx-border:2px;
+     -fx-font-weight: bold;
+}
+     #textField:focused {
+         -fx-border-color:green;
+     }
+
+#button{
+    -fx-background-radius:100;
+    -fx-background-color:rgb(45, 45, 50);
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-border:2px;
+    -fx-font-weight: bold;
+
+}
+#button:focused {
+         -fx-border-color:yellow;
+     }
